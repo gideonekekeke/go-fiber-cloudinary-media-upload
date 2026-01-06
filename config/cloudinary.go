@@ -19,7 +19,7 @@ func InitCloudinary() {
 		os.Getenv("CLOUDINARY_API_SECRET"),
 	)
 	if err != nil {
-		log.Fatal("Cloudinary init error:", err)
+		log.Fatal("Cloudinary init errosr:", err)
 	}
 
 	Cloudinary = cld
